@@ -9,7 +9,7 @@
  */
 
 define('digital_seeds_tmpl_url', plugin_dir_url(__FILE__));
-define('digital_seeds_tmpl_path', plugin_dir_path());
+define('digital_seeds_tmpl_path', plugin_dir_path(__FILE__));
 
 class digital_seeds_template_loader {
 	public $plugin_path;
